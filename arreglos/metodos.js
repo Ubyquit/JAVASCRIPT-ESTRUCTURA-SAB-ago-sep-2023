@@ -40,4 +40,10 @@ pizzas.forEach((pizza, indice) => {
   console.log(`${indice} - ${pizza}`);
 });
 
-pizzas.push("Sarten")
+pizzas.push("Sarten");
+
+pizzas[10] = "Pollo";
+
+console.log(pizzas[10]);
+
+console.log(pizzas.indexOf("Pollo"));
